@@ -86,6 +86,10 @@ a {
     width: 30%;
 }
 
+.fa-brands {
+    padding-left: 15px;
+}
+
 .title-section {
     font-size: 40px;
     text-align: center;
@@ -208,4 +212,9 @@ section {
             height: auto;
         }
     }
+}
+
+footer {
+    height: 80px;
+    padding: 15px 0;
 }
