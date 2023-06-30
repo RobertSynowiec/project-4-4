@@ -1,0 +1,146 @@
+/* Variables */
+
+$color-one: #FED136;
+$color-two: #fff;
+$color-text: #777777;
+$color-background-one: #fff;
+$color-background-two: #F7F7F7;
+$font-text: 'Open Sans', sans-serif;
+$transition: all 1s;
+
+/* Global */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: $font-text;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+li {
+    text-decoration: none;
+    color: $color-two;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: $font-text;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn {
+    background: $color-one;
+    height: 60px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    font-family: $font-text;
+
+    &:hover {
+
+        opacity: 0.5;
+    }
+
+    a {
+        color: $color-two;
+
+    }
+
+
+}
+
+/* header */
+
+.nav {
+    height: 100px;
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+
+    .navigation {
+        ul {
+            text-align: right;
+            padding-right: 30px;
+
+            li {
+                display: inline-block;
+                padding-right: 15px;
+
+                &:hover {
+                    color: $color-one;
+                }
+            }
+        }
+    }
+}
+
+.splash {
+    background-image: url("../images/banner.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+
+    .splash-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding-top: 100px;
+
+
+        .title-splash {
+            color: $color-two;
+            font-size: 40px;
+            text-transform: inherit;
+            font-style: italic;
+            font-weight: 200;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: $font-text;
+
+        }
+
+        .sub-title-splash {
+            color: $color-two;
+            font-size: 70px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin: 15px 0;
+            text-align: center;
+            font-family: $font-text;
+
+        }
+    }
+}
