@@ -145,7 +145,7 @@ header {
     }
 
     .logo {
-        margin: 0;
+        margin: 0 0 0 10px;
         padding: 0;
         display: flex;
 
@@ -155,10 +155,11 @@ header {
 .navbar_mobile {
     width: 100%;
     height: 60px;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 990px;
+    margin: 0;
+    padding-right: 20px;
     display: none;
-    align-items: self-start;
+    align-items: center;
     justify-content: space-between;
     background: transparent;
     position: fixed;
@@ -166,8 +167,9 @@ header {
 
     .logo {
         margin: 0;
-        padding: 0;
+        padding-left: 20px;
         display: flex;
+        max-width: 200px;
 
     }
 
@@ -197,11 +199,11 @@ header {
         }
 
         i {
-            color: white;
+            color: $color-two;
             font-size: 30px;
 
             &:hover {
-                color: yellow;
+                color: $color-one;
                 font-size: 30px;
             }
         }
@@ -286,7 +288,8 @@ footer {
 
     .navbar_mobile {
         align-items: center;
-        display: block;
+        display: flex;
+        align-items: center;
 
     }
 
@@ -297,7 +300,7 @@ footer {
 
     .navbar_mobile .toogle_btn:hover ul li a {
         display: flex;
-        color: white;
+        color: $color-one;
     }
 
     .navbar_mobile .toogle_btn:hover ul {
