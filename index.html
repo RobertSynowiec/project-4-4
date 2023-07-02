@@ -21,22 +21,29 @@
 
 <body>
     <header>
-        <div class="nav">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="logo col-3">
-                        <img src="images/logo.png" alt="logo">
-                    </div>
-                    <nav class="navigation col-9">
-                        <ul class="nav-ul">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+        <div class="navbar">
+            <div class="logo"> <img src="images/logo.png" alt="logo">
+            </div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar_mobile">
+            <div class="logo"> <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="toogle_btn">
+                <i class="fa-solid fa-bars fa-lg"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </div>
         <div class="splash">
@@ -48,70 +55,66 @@
             </div>
         </div>
     </header>
-
     <section class="service">
         <div class="container">
             <h2 class="title-section">services</h2>
             <p class="sub-title-section">Proin iaculis purus consequat sem cure.</p>
             <div class="row justify-content-around">
-                <div class="box col-3">
-                    <img src="../images/service1.png">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/service1.png" alt="img">
                     <h5 class="title-box">E-Commerce</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
                 </div>
-                <div class="box col-3">
-                    <img src="../images/service2.png">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/service2.png" alt="img">
                     <h5 class="title-box">E-Commerce</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
                 </div>
-                <div class="box col-3">
-                    <img src="../images/service3.png">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/service3.png" alt="img">
                     <h5 class="title-box">E-Commerce</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
                 </div>
             </div>
-
         </div>
-
-
     </section>
     <section class="portfolio">
         <div class="container">
             <h2 class="title-section">OUR PORTFOLIO</h2>
             <p class="sub-title-section">Proin iaculis purus consequat sem cure.</p>
             <div class="row pt-5 justify-content-around">
-                <div class="box col-3">
-                    <img src="../images/port1.jpg">
-                    <h5 class="title-box">Ebony & lvory</h5>
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/port1.jpg" alt="img">
+                    <h5 class="title-box">Ebony &amp; lvory</h5>
                     <p>Branding</p>
                 </div>
-                <div class="box col-3">
-                    <img src="../images/port2.jpg">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/port2.jpg" alt="img">
                     <h5 class="title-box">Smart Stationary</h5>
                     <p>Print Design</p>
                 </div>
-                <div class="box col-3">
-                    <img src="../images/port3.jpg">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/port3.jpg" alt="img">
                     <h5 class="title-box">Clever Poster</h5>
                     <p>Print Design</p>
                 </div>
             </div>
             <div class="row pt-5 d-flex justify-content-around">
-                <div class="box col-3">
-                    <img src="../images/port4.jpg">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/port4.jpg" alt="img">
                     <h5 class="title-box">Vinyl Record</h5>
                     <p>Product Mock-Up</p>
                 </div>
-                <div class="box col-3">
-                    <img src="../images/port5.jpg">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/port5.jpg" alt="img">
                     <h5 class="title-box">Treehouse Template</h5>
                     <p>Web Design</p>
                 </div>
-                <div class="box col-3">
-                    <img src="../images/port6.jpg">
+                <div class="box col-xs-12 col-md-3">
+                    <img src="../images/port6.jpg" alt="img">
                     <h5 class="title-box">Bruned Logo</h5>
                     <p>Branding</p>
                 </div>
@@ -121,22 +124,18 @@
     <footer>
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-3 d-flex justify-content-start">
+                <div class="col-xs-12 col-md-3 d-flex justify-content-start">
                     <p>© 2014 FreebiesXpress.com</p>
                 </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <i class="fa-brands fa-twitter fa-2xl" style="color: #000000;"></i>
-                    <i class="fa-brands fa-facebook fa-2xl" style="color: #000000;"></i>
-                    <i class="fa-brands fa-pinterest fa-2xl" style="color: #000000;"></i>
-                    <i class="fa-brands fa-google-plus fa-2xl" style="color: #000000;"></i>
-
+                <div class="col-xs-12 col-md-3 d-flex justify-content-center">
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-pinterest fa-2xl"></i>
+                    <i class="fa-brands fa-google-plus fa-2xl"></i>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
