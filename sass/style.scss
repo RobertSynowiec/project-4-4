@@ -35,6 +35,8 @@ li {
     font-weight: 600;
     text-transform: uppercase;
     font-family: $font-text;
+    padding: 10px 0;
+
 }
 
 a {
@@ -301,6 +303,10 @@ footer {
     .navbar_mobile .toogle_btn:hover ul li a {
         display: flex;
         color: $color-one;
+
+        &:hover {
+            color: $color-two;
+        }
     }
 
     .navbar_mobile .toogle_btn:hover ul {
