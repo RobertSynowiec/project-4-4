@@ -137,6 +137,10 @@ header {
         a {
             color: $color-two;
 
+            &:hover {
+                color: $color-one;
+            }
+
         }
     }
 
